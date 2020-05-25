@@ -1,10 +1,10 @@
 # Song Metadata Crawler
 
-Song Metadata Crawler (SMC) is a a tool that leverages [MusicBrainz](https://musicbrainz.org), [AcousticBrainz](https://acousticbrainz.org/) and [Spotify](https://www.spotify.com) APIs to fetch high-level and low-level song metadata.
+Song Metadata Crawler (SMC) is a a tool that leverages public APIs from [MusicBrainz](https://musicbrainz.org), [AcousticBrainz](https://acousticbrainz.org/) and [Spotify](https://www.spotify.com) to fetch high-level and low-level song metadata.
 
 ## Requirements
 - Python 3.6+  
-... and that's it!
+... and that's it! :rocket:
 
 ## Usage Instructions
 ### Install required depedencies
@@ -15,7 +15,9 @@ Once you're done just copy the contents of `config.conf.example` to your own `co
 
 ### Run the crawler
 Crawler can be executed using the main `crawler.py` entrypoint:  
-`python crawler.py [OPTIONS]`
+`python crawler.py [OPTIONS]`  
+  
+... and wait! :hourglass_flowing_sand: Crawling will take some time to fetch data that match your filters. In the meantime you will be prompted about the progress.
 
 #### Supported options
 | Option      | Semantics                                                                       | Default                           | Example                                               |
