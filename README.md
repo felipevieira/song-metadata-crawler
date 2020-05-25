@@ -22,10 +22,10 @@ Crawler can be executed using the main `crawler.py` entrypoint:
 #### Supported options
 | Option      | Semantics                                                                       | Default                           | Example                                               |
 |-------------|---------------------------------------------------------------------------------|-----------------------------------|-------------------------------------------------------|
-| -country    | 2-letter code ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)) <br>for the artist's main associated country  | None (won't filter by country)    | python crawler.py -country US -country BR             |
-| -gender     | Artist gender                                                                   | All (female, male, unknown)       | python crawler.py -gender female                      |
-| -genre      | Artist music Genre                                                              | None (won't filter by genre)      | python crawler.py -genre pop -genre rock -genre metal |
-| -begin      | Represents the date when the group <br>first formed or person was born          | None (won't filter by begin date) | python crawler.py -begin 1990                         |
-| -end        | Represents the date when the group <br>last dissolved or person died            | None (won't filter by end date)   | python crawler.py -end 2000                           |
-| --max-songs | Maximum number of songs to be crawled                                           | 5000                              | python crawler.py --max-songs 10000                   |
-| -output     | Output filename                                                                 | out.csv                           | python crawler.py -output myfile.csv                  |
+| -country    | 2-letter code (ISO 3166-1 alpha-2) for the artist's main associated country <br> (list of codes can be found [here](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes))   | None (won't filter by country)    | `python crawler.py -country US -country BR`           |
+| -gender     | Artist gender                                                                   | All (female, male, unknown)       | `python crawler.py -gender female`                      |
+| -genre      | Artist music Genre                                                              | None (won't filter by genre)      | `python crawler.py -genre pop -genre rock -genre metal` |
+| -begin      | Represents the date when the group <br>first formed or person was born          | None (won't filter by begin date) | `python crawler.py -begin 1990`                         |
+| -end        | Represents the date when the group <br>last dissolved or person died            | None (won't filter by end date)   | `python crawler.py -end 2000`                           |
+| --max-songs | Maximum number of songs to be crawled                                           | 5000                              | `python crawler.py --max-songs 10000`                   |
+| -output     | Output filename                                                                 | out.csv                           | `python crawler.py -output myfile.csv`                  |
