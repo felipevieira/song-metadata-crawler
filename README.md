@@ -11,7 +11,7 @@ Song Metadata Crawler (SMC) is a a tool that leverages [MusicBrainz](https://mus
 `pip install -r requirements.txt`
 ### Fill in configurations file
 SMC requires credentials of a valid Spotify app in order to fetch data. You can create your own app in https://developer.spotify.com/dashboard/applications.   
-Once your done just copy the provided `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` in your `config.conf` file.
+Once you're done just copy the contents of `config.conf.example` to your own `config.conf` and put your `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` into this file.
 
 ### Run the crawler
 Crawler can be executed using the main `crawler.py` entrypoint:  
